@@ -1,2 +1,2 @@
-# BMI-Calculator-JavaScript
+# 📱 BMI Calculator JavaScript 📱
 📱 A handy Calculator for calculating your BMI (Body Mass Index), that works on all Devices 📱
