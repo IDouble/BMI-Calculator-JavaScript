@@ -151,11 +151,11 @@ a:active {
 }
 
 .color-1 {
-	background: rgba(0,0,0,0.85);
+	background: rgba(0,114,0,0.85);
 }
 
 .color-2 {
-	background: rgba(0,0,0,1);
+	background: rgba(0,114,0,1);
 }
 
 .color-3 {
@@ -236,7 +236,7 @@ a:active {
 
 .input-group-btn-vertical .btn-default{
   transition-timing-function: ease-in-out;
-  background-color:rgba(0,0,0,0.7);
+  background-color:rgba(0,0,0,0.4);
   box-shadow:none !important;
 }
 
@@ -285,7 +285,7 @@ a:active {
 .optionsBox{
     padding-top:20px !important;
     padding-bottom:20px !important;
-    background-color: rgba(0 , 0, 0, 0.7) !important;
+    background-color: rgba(0 , 0, 0, 0.4) !important;
 }
 
 .optionsBox h1{
@@ -436,7 +436,7 @@ a:active {
     height:42px;
     padding:8px 40px;
     margin:0 5px;
-    background-color:rgba(0 , 0, 0, 0.8);
+    /*background-color:rgba(0 , 0, 0, 0.8);*/
     box-shadow: 0 6px rgba(0, 0, 0, 0.7) !important;
 }
 
@@ -446,7 +446,7 @@ a:active {
 
 .inputs .functionalButtons .active{
     border:2px solid #FFFFFF;
-    background-color:rgba(0 , 0, 0, 1) !important;
+    background-color:rgba(0 , 0, 0, 0.8) !important;
 }
 
 .inputs .functionalButtons .button-2c:hover{
@@ -504,7 +504,7 @@ header{
 
 .input-group-text{
   color:#FFFFFF !important;
-  background-color:rgba(0 , 0, 0, 0.7) !important;
+  background-color:rgba(0 , 0, 0, 0.4) !important;
 }
 
 .form-control{
