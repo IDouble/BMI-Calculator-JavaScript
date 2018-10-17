@@ -336,10 +336,6 @@ a:active {
         display: none !important;
     }
 
-    .inputLabel{
-        display: none !important;
-    }
-
     .binaryInputs {
       border-radius: 5px !important;
     }
