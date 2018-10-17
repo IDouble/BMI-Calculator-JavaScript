@@ -1,4 +1,4 @@
-# 📱 BMI (Body Mass Index) Calculator JavaScript 📱
+# [📱 BMI (Body Mass Index) Calculator JavaScript 📱](https://ayidouble.github.io/BMI-Calculator-JavaScript/)
 
 **Link** : **[https://ayidouble.github.io/BMI-Calculator-JavaScript/](https://ayidouble.github.io/BMI-Calculator-JavaScript/)**</br>
 **Mobile App** : **[https://github.com/AYIDouble/BMI-Calculator-Android-Java-App](https://github.com/AYIDouble/BMI-Calculator-Android-Java-App)**</br>
@@ -26,7 +26,7 @@ The Reason why I build this **Calculator** was, because there wasn't a good one 
 
 
 ## [📱 FREE Download Google Play Store: 📱](https://play.google.com/store/apps/details?id=com.bmicalculator.ayidouble.bmicalculator.app)
-![Free Google Play Store Binary Calculator Addition Subtraction Multiplication Division NOT AND OR XOR Mobile (Smartphone)](Images/Binary-Calculator-Google-Play.png)
+![Free Google Play Store Binary Calculator Addition Subtraction Multiplication Division NOT AND OR XOR Mobile (Smartphone)](Images/BMI-Calculator-Google-Play.png)
 
 ## As efficient as possible ⚙️
 
