@@ -532,3 +532,9 @@ input[type="number"] {
 .leftBox{
 	display:none !important;
 }
+
+.bmiChartImage{
+	margin-top:30px;
+	width:100%;
+	border-radius:15px;
+}
