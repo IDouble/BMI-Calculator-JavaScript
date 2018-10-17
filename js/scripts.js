@@ -170,13 +170,15 @@ var rechner = (function (rechner) {
                 //if (signed) {
                 //    alert("Error: Only Numbers Between " + pos_to_neg((Math.pow(2, $inputGroupSelectBit.val()) / 2)) + " and " + ((Math.pow(2, $inputGroupSelectBit.val()) / 2 ) - 1) + " can be converted to " + $inputGroupSelectBit.val() + "-Bit");
                 //} else {
-                alert("Error: Only Numbers Between 0 and " + Math.pow(2, $inputGroupSelectBit.val()) + " can be converted to " + $inputGroupSelectBit.val() + "-Bit");
+                //alert("Error: Only Numbers Between 0 and " + Math.pow(2, $inputGroupSelectBit.val()) + " can be converted to " + $inputGroupSelectBit.val() + "-Bit");
                 //}
                 binaryInputID.val("");
             }
 
             // Active Functional Button logic
             if (inputType != inputEnum.FunctionalButton) {
+            	bmi($operand1Binary, $operand2Binary);
+            	/*
                 if ($addBtn.hasClass("active")) {
                     binaryAddition($operand1Binary, $operand2Binary);
                 }
@@ -198,6 +200,7 @@ var rechner = (function (rechner) {
                 else if ($XORBtn.hasClass("active")) {
                     binaryXOR($operand1Binary, $operand2Binary);
                 }
+                */
             }
 
             console.log("$operand1Decimal input");
@@ -459,10 +462,6 @@ var rechner = (function (rechner) {
         // Addition (+)
 
         function binaryAddition(binaryInputID, binaryInputID2) {
-
-        	bmi(binaryInputID, binaryInputID2);
-
-        	/*
             if ($operand1Binary.val() != "" && $operand2Binary.val() != "") {
 
                 // if the Result is higher than the maximum allowed Bits (ex. 2^16 = 65536), give more space for the result
@@ -474,7 +473,6 @@ var rechner = (function (rechner) {
 
                 updateAll($resultDecimal, $resultBinary, $resultSystem, inputEnum.FunctionalButton);
             }
-            */
         }
 
         // Subtraction (-)
@@ -610,15 +608,16 @@ var rechner = (function (rechner) {
 
         function bmi(binaryInputID, binaryInputID2) {
 
-            if ($operand1Binary.val() != "" && $operand2Binary.val() != "") {
+            if ($operand1Decimal.val() != "" && $operand2Decimal.val() != "") {
 
-                var bodyWeight = binaryInputID.val();
-                var bodyHeight = binaryInputID2.val();
+                var bodyWeight = $operand1Decimal.val();
+                var bodyHeight = $operand2Decimal.val();
 
                 var bodymassindex = bodyWeight / Math.pow((bodyHeight / 100),2);
 
-                $resultBinary.val(bodymassindex);
+                console.log("BMI: " + (bodyWeight));
                 updateAll($resultDecimal, $resultBinary, $resultSystem, inputEnum.FunctionalButton);
+                $resultDecimal.val(bodymassindex);
             }
         }
 
