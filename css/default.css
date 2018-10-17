@@ -544,9 +544,12 @@ input[type="number"] {
 	width:20%;
 	margin:0 0 0 0;
 	padding:0 0 0 0;
+	opacity: 0.5;
+
 }
 
 .bmiChartImage .active {
 	width:25%;
 	border: 5px solid #FFFFFF !important;
+	opacity: 1 !important;
 }
