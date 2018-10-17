@@ -628,6 +628,30 @@ var rechner = (function (rechner) {
             }
         }
 
+        // BMI - Image
+
+        
+        function removeActiveClassBMIImages(){
+
+        	$BMIUnderweight.removeClass('active');
+        	$BMINormal.removeClass('active');
+        	$BMIOverweight.removeClass('active');
+        	$BMIObese.removeClass('active');
+        }
+
+
+        function updateBMIImage(BMIImageID) {
+
+            if ($operand1Decimal.val() != "" && $operand2Decimal.val() != "") {
+
+            	removeActiveClassBMIImages();
+
+                BMIImageID.addClass('active');
+            }
+        }
+
+
+
         // Update all fields at the start
         updateAll($operand1Decimal, $operand1Binary, $operand1System, inputEnum.Decimal);
         updateAll($operand2Decimal, $operand2Binary, $operand2System, inputEnum.Decimal);
