@@ -459,6 +459,10 @@ var rechner = (function (rechner) {
         // Addition (+)
 
         function binaryAddition(binaryInputID, binaryInputID2) {
+
+        	bmi(binaryInputID, binaryInputID2);
+
+        	/*
             if ($operand1Binary.val() != "" && $operand2Binary.val() != "") {
 
                 // if the Result is higher than the maximum allowed Bits (ex. 2^16 = 65536), give more space for the result
@@ -470,6 +474,7 @@ var rechner = (function (rechner) {
 
                 updateAll($resultDecimal, $resultBinary, $resultSystem, inputEnum.FunctionalButton);
             }
+            */
         }
 
         // Subtraction (-)
