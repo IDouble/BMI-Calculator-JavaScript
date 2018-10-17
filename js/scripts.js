@@ -613,7 +613,7 @@ var rechner = (function (rechner) {
                 var bodyWeight = $operand1Decimal.val();
                 var bodyHeight = $operand2Decimal.val();
 
-                var bodymassindex = bodyWeight / Math.pow((bodyHeight / 100),2);
+                var bodymassindex = (bodyWeight / Math.pow((bodyHeight / 100),2)).toFixed(2);
 
                 console.log("BMI: " + (bodyWeight));
                 updateAll($resultDecimal, $resultBinary, $resultSystem, inputEnum.FunctionalButton);
