@@ -553,3 +553,8 @@ input[type="number"] {
 	border: 5px solid #FFFFFF !important;
 	opacity: 1 !important;
 }
+
+.outerInputDiv,.innerInputDiv{
+	padding-left:0px !important;
+	padding-right:0px !important;
+}
