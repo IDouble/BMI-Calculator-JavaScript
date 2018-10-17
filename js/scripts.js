@@ -77,10 +77,10 @@ var rechner = (function (rechner) {
 
         // BMI Images
 
-        var $addBtn = $('#BMI-Underweight');
-        var $subBtn = $('#BMI-Normal');
-        var $mulBtn = $('#BMI-Overweight');
-        var $divBtn = $('#BMI-Obese');
+        var $BMIUnderweight = $('#BMI-Underweight');
+        var $BMINormal = $('#BMI-Normal');
+        var $BMIOverweight = $('#BMI-Overweight');
+        var $BMIObese = $('#BMI-Obese');
 
         // --------------------------------------------------------------------------------
         // Private functions
