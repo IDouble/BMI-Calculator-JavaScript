@@ -541,7 +541,12 @@ input[type="number"] {
 }
 
 .bmiChartImageElement{
-	width:23%;
+	width:20%;
 	margin:0 0 0 0;
 	padding:0 0 0 0;
+}
+
+.bmiChartImage .active {
+	width:25%;
+	border: 5px solid #FFFFFF !important;
 }
