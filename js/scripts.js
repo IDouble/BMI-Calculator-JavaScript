@@ -622,14 +622,22 @@ var rechner = (function (rechner) {
 
                 var bodymassindex = (bodyWeight / Math.pow((bodyHeight / 100),2)).toFixed(2);
 
-                console.log("BMI: " + (bodyWeight));
+                if (bodymassindex < 18.5){
+                	updateBMIImage($BMIUnderweight);
+                }else if( bodymassindex >= 18.5  && bodymassindex < 25){
+                	updateBMIImage($BMINormal);
+                }else if( bodymassindex >= 25  && bodymassindex < 30){
+                	updateBMIImage($BMIOverweight);
+                }else if( bodymassindex >= 30){
+                	updateBMIImage($BMIObese);
+                }
+                
                 updateAll($resultDecimal, $resultBinary, $resultSystem, inputEnum.FunctionalButton);
                 $resultDecimal.val(bodymassindex);
             }
         }
 
         // BMI - Image
-
         
         function removeActiveClassBMIImages(){
 
@@ -649,8 +657,6 @@ var rechner = (function (rechner) {
                 BMIImageID.addClass('active');
             }
         }
-
-
 
         // Update all fields at the start
         updateAll($operand1Decimal, $operand1Binary, $operand1System, inputEnum.Decimal);
