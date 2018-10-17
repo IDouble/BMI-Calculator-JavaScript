@@ -601,6 +601,22 @@ var rechner = (function (rechner) {
             }
         }
 
+        // BMI
+
+        function bmi(binaryInputID, binaryInputID2) {
+
+            if ($operand1Binary.val() != "" && $operand2Binary.val() != "") {
+
+                var bodyWeight = binaryInputID.val();
+                var bodyHeight = binaryInputID2.val();
+
+                var bodymassindex = bodyWeight / Math.pow((bodyHeight / 100),2);
+
+                $resultBinary.val(bodymassindex);
+                updateAll($resultDecimal, $resultBinary, $resultSystem, inputEnum.FunctionalButton);
+            }
+        }
+
         // Update all fields at the start
         updateAll($operand1Decimal, $operand1Binary, $operand1System, inputEnum.Decimal);
         updateAll($operand2Decimal, $operand2Binary, $operand2System, inputEnum.Decimal);
