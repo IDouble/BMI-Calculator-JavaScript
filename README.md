@@ -1,4 +1,4 @@
-# 📱 BMI (Body Mass Index) Calculator JavaScript 📱
+# [📱 BMI (Body Mass Index) Calculator JavaScript 📱](https://ayidouble.github.io/BMI-Calculator-JavaScript/)
 
 **Link** : **[https://ayidouble.github.io/BMI-Calculator-JavaScript/](https://ayidouble.github.io/BMI-Calculator-JavaScript/)**</br>
 **Mobile App** : **[https://github.com/AYIDouble/BMI-Calculator-Android-Java-App](https://github.com/AYIDouble/BMI-Calculator-Android-Java-App)**</br>
