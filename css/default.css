@@ -22,7 +22,11 @@ body, html { font-size: 100%; padding: 0; margin: 0; height: 100%;}
 body {
 	font-family: 'Lato', Calibri, Arial, sans-serif;
 	color: #89867e;
-	background: #000000;
+	background: #268726;
+}
+
+header{
+	background:#ffffff;
 }
 
 a {
@@ -151,11 +155,11 @@ a:active {
 }
 
 .color-1 {
-	background: rgba(0,114,0,0.85);
+	background: #268726;
 }
 
 .color-2 {
-	background: rgba(0,114,0,1);
+	background: #007200;
 }
 
 .color-3 {
@@ -557,4 +561,8 @@ input[type="number"] {
 .outerInputDiv,.innerInputDiv{
 	padding-left:0px !important;
 	padding-right:0px !important;
+}
+
+.ribbon img{
+	z-index:5;
 }
