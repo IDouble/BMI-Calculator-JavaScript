@@ -91,7 +91,7 @@ var rechner = (function (rechner) {
             // Init Select Change & Button Listener
 
             selectChangeListener();
-            buttonChangeListener()
+            buttonChangeListener();
 
             // Init Input Change Listener
 
