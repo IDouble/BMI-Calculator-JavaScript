@@ -159,9 +159,6 @@ var rechner = (function (rechner) {
         // logical logic
 
         function updateAll(decimalInputID, binaryInputID, systemInputID, inputType) {
-
-            console.log("input type " + inputType);
-
             if (inputType == inputEnum.Decimal && (decimalInputID.val() < Math.pow(2, $inputGroupSelectBit.val()))) {
                 binaryInputID.val(float64ToInt64Binary(decimalInputID.val()).substr(pos_to_neg($inputGroupSelectBit.val())));
                 systemInputID.val(intToSystem(decimalInputID.val()));
@@ -208,8 +205,6 @@ var rechner = (function (rechner) {
                 }
                 */
             }
-
-            console.log("$operand1Decimal input");
         }
 
         // Button Listener
@@ -296,7 +291,6 @@ var rechner = (function (rechner) {
 
         function inputChangeListener(decimalInputID, binaryInputID, systemInputID) {
             decimalInputID.on('input', function () {
-                console.log("test: " + inputEnum.Decimal);
                 updateAll(decimalInputID, binaryInputID, systemInputID, inputEnum.Decimal);
             });
             binaryInputID.on('input', function () {
