@@ -14,7 +14,7 @@ The Reason why I build this **Calculator** was, because there wasn't a good one 
 ![BMI Calculator Body Mass Index Chart Mobile (Smartphone)](Images/BMI-Calculator-Android_1.png)
 ![BMI Calculator Body Mass Index Chart Mobile (Smartphone)](Images/BMI-Calculator-Android_2.png)
 
-## [💻 Destkop: 🖥](https://ayidouble.github.io/BMI-Calculator-JavaScript)
+## [💻 Desktop: 🖥](https://ayidouble.github.io/BMI-Calculator-JavaScript)
 ![BMI Calculator Body Mass Index Chart](Images/BMI-Calculator-v1-Image.png)
 
 **[The BMI (Body Mass Index) Calculator is just a Website](https://ayidouble.github.io/BMI-Calculator-JavaScript)** that each possible device can access to.</br>
@@ -22,7 +22,7 @@ The Reason why I build this **Calculator** was, because there wasn't a good one 
 - ***[Smartphone](https://ayidouble.github.io/BMI-Calculator-JavaScript) (Android/iOS etc.) 📱***
 - ***[Tablet](https://ayidouble.github.io/BMI-Calculator-JavaScript) (Chrome, Firefox, Edge, Safari) 📱***
 - ***[Laptop](https://ayidouble.github.io/BMI-Calculator-JavaScript) (Chrome, Firefox, Edge, Safari) 💻***
-- ***[Destkop](https://ayidouble.github.io/BMI-Calculator-JavaScript) (Chrome, Firefox, Edge, Safari) 🖥***
+- ***[Desktop](https://ayidouble.github.io/BMI-Calculator-JavaScript) (Chrome, Firefox, Edge, Safari) 🖥***
 
 
 ## [📱 FREE Download Google Play Store: 📱](https://play.google.com/store/apps/details?id=com.bmicalculator.ayidouble.bmicalculator.app)
