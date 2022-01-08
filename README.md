@@ -2,7 +2,6 @@
 
 **Link** : **[https://ayidouble.github.io/BMI-Calculator-JavaScript/](https://ayidouble.github.io/BMI-Calculator-JavaScript/)**</br>
 **Mobile App** : **[https://github.com/AYIDouble/BMI-Calculator-Android-Java-App](https://github.com/AYIDouble/BMI-Calculator-Android-Java-App)**</br>
-**Official Google Play Store Download Link** : **[https://play.google.com/store/apps/details?id=com.bmicalculator.ayidouble.bmicalculator.app](https://play.google.com/store/apps/details?id=com.bmicalculator.ayidouble.bmicalculator.app)**
 
 A handy **Calculator** to calculate your **BMI (Body Mass Index)**, that works on **all devices**. 📱 💻 🖥
 
