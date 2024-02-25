@@ -32,3 +32,5 @@ The Reason why I build this **Calculator** was, because there wasn't a good one 
 
 The **Calculator** is designed to give responses on every action,
 while you're typing, an algorithm already calculates every number you type and displays the result.
+
+![Binance Ready to give crypto a try ? buy bitcoin and other cryptocurrencies on binance](Images/binance.jpg)
